@@ -675,7 +675,7 @@ function run() {
     return __awaiter(this, void 0, void 0, function* () {
         const script = path_1.default.normalize(path_1.default.join(__dirname, '..', 'src', 'git-restore-mtime-bare'));
         // core.info("running script " + script);
-        yield exec.exec('python3', [script]);
+        yield exec.exec('python2', [script]);
     });
 }
 run();
